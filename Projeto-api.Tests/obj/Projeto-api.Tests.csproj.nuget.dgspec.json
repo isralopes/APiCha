@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\desafio\\Projeto-api.Tests\\Projeto-api.Tests.csproj": {}
+    "c:\\Projetos\\desafio\\Projeto-api.Tests\\Projeto-api.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\desafio\\Projeto-api.Tests\\Projeto-api.Tests.csproj": {
+    "c:\\Projetos\\desafio\\Projeto-api.Tests\\Projeto-api.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\desafio\\Projeto-api.Tests\\Projeto-api.Tests.csproj",
+        "projectUniqueName": "c:\\Projetos\\desafio\\Projeto-api.Tests\\Projeto-api.Tests.csproj",
         "projectName": "Projeto-api.Tests",
-        "projectPath": "C:\\Projetos\\desafio\\Projeto-api.Tests\\Projeto-api.Tests.csproj",
+        "projectPath": "c:\\Projetos\\desafio\\Projeto-api.Tests\\Projeto-api.Tests.csproj",
         "packagesPath": "C:\\Users\\isra_\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\desafio\\Projeto-api.Tests\\obj\\",
+        "outputPath": "c:\\Projetos\\desafio\\Projeto-api.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isra_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,11 +34,46 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,7 +85,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
