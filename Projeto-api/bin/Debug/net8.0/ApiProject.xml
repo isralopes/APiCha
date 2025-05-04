@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiProject</name>
+    </assembly>
+    <members>
+        <member name="M:ApiProject.Controllers.ProdutosController.GetProdutos">
+            <summary>
+            Obtém todos os produtos
+            </summary>
+        </member>
+        <member name="M:ApiProject.Controllers.ProdutosController.GetProduto(System.Int32)">
+            <summary>
+            Obtém um produto específico por ID
+            </summary>
+        </member>
+        <member name="M:ApiProject.Controllers.ProdutosController.PostProduto(ApiProject.Models.Produto)">
+            <summary>
+            Cria um novo produto
+            </summary>
+        </member>
+        <member name="M:ApiProject.Controllers.ProdutosController.PutProduto(System.Int32,ApiProject.Models.Produto)">
+            <summary>
+            Atualiza um produto existente
+            </summary>
+        </member>
+        <member name="M:ApiProject.Controllers.ProdutosController.DeleteProduto(System.Int32)">
+            <summary>
+            Remove um produto
+            </summary>
+        </member>
+        <member name="T:ApiProject.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProject.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProject.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProject.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
